@@ -35,7 +35,19 @@
   width: 33%;
 }
 
-.btn:hover, .zero:hover {
+.zero {
+  font-size: 18px;
+  font-weight: 700;
+  padding: 16px;
+  border: 1px solid rgb(184, 184, 184);
+  background-color: rgb(240, 239, 239);
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+  width: 300px;
+}
+
+.btn:hover,
+.zero:hover {
   background-color: #d0d0d0;
 }
 
@@ -58,15 +70,5 @@
 }
 
 .operator-btn:hover {
-    background-color: rgb(200, 136, 17);
-}
-.zero {
-  font-size: 18px;
-  font-weight: 700;
-  padding: 16px;
-  border: 1px solid rgb(184, 184, 184);
-  background-color: rgb(240, 239, 239);
-  cursor: pointer;
-  transition: background-color 0.2s ease-in-out;
-  width: 300px;
+  background-color: rgb(200, 136, 17);
 }
