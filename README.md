@@ -73,11 +73,6 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LIVE DEMO -->
-
-## 🚀 Live Demo <a name="live-demo"></a>
-
-This is the [live demo link](https://hafiz1379.github.io/math-magicians/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -103,7 +98,7 @@ Run this command:
 
 ```sh
   cd my-folder
-  git clone https://github.com/hafiz1379/Awesome-book.git
+  git clone https://hafiz1379.github.io/math-magicians
 
 ### Install
 
@@ -148,11 +143,6 @@ Hafizullah Rasa
 - Twitter: [@twitterhandle](https://twitter.com/Hafizrasa1379?s=35)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/hafizullah-rasa-8436a1257/)
 
-👤 **Sanam Rahimi**
-- GitHub: [@githubhandle](https://github.com/sanamrahimi)
-
-👤 **JORGE CAMARGO**
-- GitHub: [@githubhandle](https://github.com/jicamargoi)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
