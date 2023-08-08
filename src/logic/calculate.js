@@ -1,4 +1,4 @@
-import operate from "./operate.js";
+import operate from './operate';
 
 function isNumber(item) {
   return !!item.match(/[0-9]+/);
@@ -14,7 +14,7 @@ function isNumber(item) {
  *   operation:String  +, -, etc.
  */
 export default function calculate(obj, buttonName) {
-  if (buttonName === "AC") {
+  if (buttonName === 'AC') {
     return {
       total: null,
       next: null,
@@ -23,18 +23,18 @@ export default function calculate(obj, buttonName) {
   }
 
   if (isNumber(buttonName)) {
-    if (buttonName === "0" && obj.next === "0") {
+    if (buttonName === '0' && obj.next === '0') {
       return {};
     }
     // If there is an operation, update next
     if (obj.operation) {
-      if (obj.next && obj.next !== "0") {
+      if (obj.next && obj.next !== '0') {
         return { ...obj, next: obj.next + buttonName };
       }
       return { ...obj, next: buttonName };
     }
     // If there is no operation, update next and clear the value
-    if (obj.next && obj.next !== "0") {
+    if (obj.next && obj.next !== '0') {
       return {
         next: obj.next + buttonName,
         total: null,
@@ -46,26 +46,26 @@ export default function calculate(obj, buttonName) {
     };
   }
 
-  if (buttonName === ".") {
+  if (buttonName === '.') {
     if (obj.next) {
-      if (obj.next.includes(".")) {
+      if (obj.next.includes('.')) {
         return { ...obj };
       }
       return { ...obj, next: `${obj.next}.` };
     }
     if (obj.operation) {
-      return { ...obj, next: "0." };
+      return { ...obj, next: '0.' };
     }
     if (obj.total) {
-      if (obj.total.includes(".")) {
+      if (obj.total.includes('.')) {
         return {};
       }
       return { ...obj, next: `${obj.total}.` };
     }
-    return { ...obj, next: "0." };
+    return { ...obj, next: '0.' };
   }
 
-  if (buttonName === "=") {
+  if (buttonName === '=') {
     if (obj.next && obj.operation) {
       return {
         total: operate(obj.total, obj.next, obj.operation),
@@ -77,7 +77,7 @@ export default function calculate(obj, buttonName) {
     return {};
   }
 
-  if (buttonName === "+/-") {
+  if (buttonName === '+/-') {
     if (obj.next) {
       return { ...obj, next: (-1 * parseFloat(obj.next)).toString() };
     }
