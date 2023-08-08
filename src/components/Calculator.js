@@ -13,7 +13,7 @@ function Calculator() {
   const handleBtnClick = (buttonName) => {
     setCalculatorData(calculate(calculatorData, buttonName));
   };
-  (
+  return (
     <div className="body">
       <Display value={calculatorData.next || calculatorData.total || '0'} />
       <div className="btns">
