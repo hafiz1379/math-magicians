@@ -1,12 +1,16 @@
+import React from 'react';
+import { BrowserRouter as Router } from 'react-router-dom';
 import './App.css';
-import Calculator from './components/Calculator';
-import Quote from './Quote/quote';
+import Navigation from './home/navigation';
 
-export default function App() {
+function App() {
   return (
-    <div className="App">
-      <Calculator />
-      <Quote />
-    </div>
+    <Router>
+      <div className="App">
+        <Navigation />
+      </div>
+    </Router>
   );
 }
+
+export default App;
