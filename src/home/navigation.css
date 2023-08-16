@@ -1,0 +1,31 @@
+ul {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  list-style-type: none;
+  margin-right: 50px;
+  align-items: center;
+  margin-top: -74px;
+}
+
+.head-name {
+  margin-left: 10px;
+}
+
+.home {
+  padding: 3%;
+}
+
+.home h1 {
+  margin-bottom: 66px;
+}
+
+.calculatorPage {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10%;
+}
+
+.quotePage {
+  padding: 10%;
+}
