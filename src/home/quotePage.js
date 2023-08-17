@@ -1,5 +1,5 @@
 import React from 'react';
-import QuoteComponent from '../Quote/quote';
+import QuoteComponent from '../QuoteComponent/quote';
 
 function Quote() {
   return (

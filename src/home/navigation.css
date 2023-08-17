@@ -9,7 +9,7 @@ ul {
 }
 
 .head-name {
-  margin-left: 35px;
+  margin-left: 10px;
 }
 
 .home {
@@ -23,12 +23,7 @@ ul {
 .calculatorPage {
   display: flex;
   justify-content: space-between;
-  padding: 0 100px;
-}
-
-.cal-heading {
-  margin-left: -12px;
-  color: orange;
+  padding: 0 10%;
 }
 
 .quotePage {

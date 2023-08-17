@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import './quote-style.css';
+import './quote.css';
 
 export default function QuoteComponent() {
   const [loading, setLoading] = useState(true);
@@ -9,7 +9,7 @@ export default function QuoteComponent() {
   useEffect(() => {
     const fetchData = async () => {
       setLoading(true);
-      const category = 'experience';
+      const category = 'happiness';
       const apiKey = 'ymCbBE03nErvlKzbVx1/bQ==cOiHM9eT0XjlnLNn';
 
       try {

@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`display calculator is rendering 1`] = `
+"[36m<div>[39m
+  [36m<div[39m
+    [33mclass[39m=[32m\\"display\\"[39m
+  [36m>[39m
+    [0m0[0m
+  [36m</div>[39m
+[36m</div>[39m"
+`;
