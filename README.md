@@ -135,8 +135,6 @@ You can deploy this project using:
 
 ## 👥 Authors <a name="authors"></a>
 
-Hafizullah Rasa
-
 👤 **Hafizullah Rasa**
 
 - GitHub: [@githubhandle](https://github.com/hafiz1379)
